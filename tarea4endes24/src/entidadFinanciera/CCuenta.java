@@ -5,6 +5,10 @@
 
 package entidadFinanciera;
 
+/**
+ * @author Gustavo
+ * Esta calse es para almacenar datos de la cuenta
+ */
 
 public class CCuenta {
 
@@ -19,6 +23,7 @@ public class CCuenta {
     
     private static final String ERRORCANTIDADNEGATIVA = "No se puede ingresar una cantidad negativa";
     
+
     public CCuenta()
     {
     }
@@ -31,7 +36,6 @@ public class CCuenta {
     }
     
     
-    
     public String getNombre() {
 		return nombre;
 	}
@@ -39,15 +43,27 @@ public class CCuenta {
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
-
+/**
+ * 
+ * @return cuenta
+ */
 	public String getCuenta() {
 		return cuenta;
 	}
 
+	/**
+	 * 
+	 * @param cuenta
+	 */
 	public void setCuenta(String cuenta) {
 		this.cuenta = cuenta;
 	}
 
+	/**
+	 * 
+	 * @return saldo
+	 */
+	
 	public double getSaldo() {
 		return saldo;
 	}
